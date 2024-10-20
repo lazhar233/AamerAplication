@@ -1,0 +1,231 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    position: relative;
+    background-color: rgb(96, 99, 101);
+}
+
+.white{
+    width: 370px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -3px 2px 13px rgb(255, 255, 255);
+    border-radius: 44px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black {
+    width: 362px;
+    height: 592px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    width: 346px;
+    height: 574px;
+    margin:  auto;
+    border-radius: 34px;
+    text-align: center;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+
+
+.hed{
+    margin:  15px ;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 15px;
+    
+}
+
+
+.hed .information h4{
+    font-size: 13px; 
+    text-align: left;  
+     
+}
+.hed .information h5{
+    font-size: 10px;  
+    margin-top: 3px;
+    text-align: left;
+    color: rgb(159, 163, 166);  
+}
+.hed img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.containerGreen{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 89px;
+    background: linear-gradient(to right, #006F41, #00C171);
+}
+
+.containerGreen .titleadd{
+    font-size: 9px;
+    color: aliceblue;
+    margin-left: 200px;
+    padding: 9px 0;
+}
+.containerGreen img{
+    width: 85px;
+    margin: -12px 0 0 18px;
+    position: absolute; /* or absolute, fixed, sticky */
+    z-index: 3;
+}
+.edit button{
+    border: none;
+    border-radius: 12px;
+    padding: 3px;
+    width: 80px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #006F41;
+    background-color: rgba(240, 248, 255, 0.587);
+    z-index: 5;
+    position: absolute; 
+    left: 19px;
+    top: 61px;
+    
+}
+.listButon{
+    height: 55px;
+    background-color: #939796;
+    color: #404949;
+    position:absolute;
+    width: 346px;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 19px;
+    font-size: 35px;
+    position: absolute;
+    bottom: 13px;
+    border-radius: 0 0 35px 35px;
+}
+.listButon #submit{
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 33px;
+    background-color: #939796;
+}
+.listButon i:hover{
+    color: #3eb382;
+    cursor: pointer;
+    transition: .2s;
+}
+.listButon .fa-user-group {
+    color: #3bf0a5;
+}
+
+
+
+/* ------------- code les y3awedlak l7aja marat yaser bL Js ---------------------- */
+#bdy{
+        width: 346px;
+        height: 40vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px; 
+        width: 80%;
+        margin: 17px auto;
+        padding: 3px;
+        overflow: hidden;
+    }
+
+#car{
+    width: 130px;
+    height: 140px;
+    padding: 5px;
+    background-color: rgb(215, 223, 201);
+    display: flex;
+    align-items:flex-end;
+    background-image:url(/images/backgrnd/green.jpg);
+}
+
+#gren{
+    color: azure;
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items:flex-end;
+    background-color: #59bd95a5;
+}
+#gren  button{
+    height: 20px;
+    color: azure;
+    padding: 4px;
+    cursor: pointer;
+    background-color: #006F41;
+}
+#gren h6{
+    font-size: 8px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* -----------------------  10 _ 19 _2024 --------------------------- */
+
+
+.cont {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 80%;
+    background: #CBDCD5;
+    border-radius: 4px;
+}
+.serc{
+    width: 70%;
+    margin: 0 auto;
+    background: #CBDCD5;
+    cursor: pointer;
+}
+.btn button {
+    padding: 7px;
+    margin: 8px auto 0;
+    background-color: #1b1b1c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.btn button:hover {
+    transition: .2s;
+    background-color: #3bf0a5;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    padding: 4px;
+}
+

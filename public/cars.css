@@ -1,0 +1,132 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    position: relative;
+    background-color: rgb(96, 99, 101);
+}
+
+.white{
+    width: 370px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -3px 2px 13px rgb(255, 255, 255);
+    border-radius: 44px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black {
+    width: 362px;
+    height: 592px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    width: 346px;
+    height: 574px;
+    margin:  auto;
+    border-radius: 34px;
+    text-align: center;
+    background: #EDEDED;
+    overflow: hidden;
+}
+/* ----------------------------------------------------------------------------------- */
+
+.header{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .fa-arrow-left {
+    font-size: 35px;
+    color:#03A461;
+    text-shadow: #00C792;
+    
+}
+.header .fa-arrow-left:hover{
+    cursor: pointer;
+    color:  rgb(107, 219, 107);
+    text-shadow: -1px 2px 5px  rgb(50, 180, 50);
+}
+.header button{
+    margin: 8px;
+    width: 50px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    border-radius: 50%;
+    padding: 6px;
+    color:  rgb(50, 180, 50);
+    background-color: rgb(228, 230, 227);
+}
+
+.serc{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px 8px;
+    border-radius: 12px;
+    background: #CBDCD5;
+    cursor: pointer;
+}
+.serc input{
+    border: none;
+    outline: none;
+    background: #CBDCD5;
+}
+
+
+/* ---------------  lista Li TT3awed --------------------- */
+
+.kamel{
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 22px;
+    box-shadow: 2px 2px 4px rgb(213, 211, 211);
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hed button{
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(228, 230, 227);
+
+}
+.hed button i{
+    margin: 8px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    border-radius: 50%;
+    padding:0px;
+    color:  rgb(50, 180, 50);
+    background-color: rgb(228, 230, 227);
+}
+.imaag{
+    width: 50px;
+}
+.imaag img {
+    width: 60px;
+}

@@ -1,0 +1,208 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    position: relative;
+    background-color: rgb(96, 99, 101);
+}
+
+.white{
+    width: 370px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -3px 2px 13px rgb(255, 255, 255);
+    border-radius: 44px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black {
+    width: 362px;
+    height: 592px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    width: 346px;
+    height: 574px;
+    margin:  auto;
+    border-radius: 34px;
+    text-align: center;
+    background: #EDEDED;
+    overflow: hidden;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* -----------------  L ista Li lfo9 FOto & name ------------------------- */
+
+.hed{
+    margin:  15px ;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 15px;
+    
+}
+
+.hed .information h4{
+    font-size: 13px; 
+    text-align: left;  
+     
+}
+.hed .information h5{
+    font-size: 10px;  
+    margin-top: 3px;
+    text-align: left;
+    color: rgb(159, 163, 166);  
+}
+.hed img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* ---------------------------------------- */
+
+
+
+/* -----------------  L ista Li Ta7et ------------------------- */
+.listButon{
+    height: 55px;
+    background-color: #939796;
+    color: #404949;
+    position:absolute;
+    width: 346px;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 19px;
+    font-size: 35px;
+    position: absolute;
+    bottom: 13px;
+    border-radius: 0 0 35px 35px;
+}
+.listButon #submit{
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 33px;
+    background-color: #939796;
+}
+.listButon i:hover{
+    color: #3eb382;
+    cursor: pointer;
+    transition: .2s;
+}
+.listButon .fa-briefcase{
+    color: #3bf0a5;
+} 
+
+/* ----------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------  100 post Li blon La5dar ------------------------------------ */
+.container{
+    width: 97%;
+    height: 400vh;
+    margin: 0 5px;
+    padding: 10px 0;
+    background: #1E1E1EED;
+    border-radius: 22px 22px 0 0 ;
+}
+
+.title {
+    font-size: 20px;
+    width: 90%;
+    margin: 3px auto;
+    padding: 13px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.title button{
+    cursor: pointer;
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    color: #fff;
+    background: #03A461;
+}
+.gosh h4{
+    color: #00B96D;
+}
+.gosh {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --------------------------------------------------------------------- */
+
+/* -----------------  L carii Li fih Ta3limat ----------------------- */
+
+.kaml{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+    padding: 7px;
+    border-radius: 13px;
+    text-align: right;
+    background: #FFFFFF;
+
+}
+.goshh img { 
+    width: 80px;
+    height: 100%;
+    margin: 0 3px;
+    border-radius: 5px;
+}
+.droitt{
+    width: 65%;
+    padding: 0 6px;
+}
+.droitt h4{
+    margin: 3px;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.droitt h5{
+    padding: 5px;
+    margin:3px;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.small{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.small  img{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.small h5{
+    cursor: pointer;
+    width: 100px;
+    font-size: 6px;
+    font-weight: 600;
+}

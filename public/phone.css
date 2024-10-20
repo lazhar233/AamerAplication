@@ -1,0 +1,164 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    position: relative;
+    background-color: rgb(96, 99, 101);
+}
+
+.white{
+    width: 370px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -3px 2px 13px rgb(255, 255, 255);
+    border-radius: 44px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black {
+    width: 362px;
+    height: 592px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    width: 346px;
+    height: 574px;
+    margin:  auto;
+    border-radius: 34px;
+    text-align: center;
+    background: #EDEDED;
+    overflow: hidden;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.hed{
+    margin:  15px ;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 15px;
+    
+}
+
+
+.hed .information h4{
+    font-size: 13px; 
+    text-align: left;  
+     
+}
+.hed .information h5{
+    font-size: 10px;  
+    margin-top: 3px;
+    text-align: left;
+    color: rgb(159, 163, 166);  
+}
+.hed img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+/* ----------------------------------------------------------------------------- */
+
+
+
+.marto{text-align: left;
+    width: 90%;
+    height: 220px;
+    margin: 0 auto;
+    border-radius: 12px;
+    display: flex;
+}
+.marto img{
+    
+    width: 30%;
+    height: 100%;
+}
+.klam {
+    padding: 5px;
+}
+.klam h2,
+.pay h2{
+    background: linear-gradient(to right, #034429, #00ff95); 
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;  
+    
+}
+.klam p {
+    margin-top: 14px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.pay{
+    text-align: left;
+    width: 90% ;
+    height: 130px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 1px 2px 7px rgb(187, 187, 187);
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+}
+.tawasol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    border-left: 2px solid #00ff95;
+    padding-left: 12px;
+    margin: 14px;
+}
+.tawasol h4{
+    font-size: 12px;
+}
+/* ------------------------------------------------------------------ */
+
+.listButon{
+    height: 55px;
+    background-color: #939796;
+    color: #404949;
+    position:absolute;
+    width: 346px;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 19px;
+    font-size: 35px;
+    position: absolute;
+    bottom: 13px;
+    border-radius: 0 0 35px 35px;
+}
+.listButon #submit{
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 33px;
+    background-color: #939796;
+}
+.listButon  i {
+    cursor: pointer;
+}
+
+.listButon  i:hover{
+    color: #27a872;
+}
+.listButon .fa-phone {
+    color: #1bf198;
+}
+
+/* ------------------------------------------------------------------------ */
